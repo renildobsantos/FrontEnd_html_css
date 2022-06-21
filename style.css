@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;  
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+   display: flex; 
+   justify-content: space-around;
+   align-items: center;
+   padding: 10px;
+   background-color: blue;
+}
+
+.logo {
+    font-size: 40px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+   color: white;
+   font-size: 16px;
+   padding: 30px;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 180px;
+}
+
+.texto h1 {
+    color: blue;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    display: block;
+    height: 40px;
+    margin-top: 20px;
+    width: 200px;
+    line-height: 40px;
+}
+.quem-somos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    gap: 100px;
+}
+.quem-somos h2 {
+    display: flex;
+    font-size: 32Px;
+    color: blue;
+    margin-bottom: 20px;
+}
+.quem-somos p {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.apresentacao-secundario {
+    background-color: blue;
+    width: 100%;  
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0; 
+}
+
+.servicos h2 {
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.list_servicos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.item {
+    text-align: center;
+    padding: 50px;
+}
+
+.item p {
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.item a {
+    color: blue;
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    display: block;
+    height: 40px;
+    margin-top: 20px;
+    width: 200px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.descricao-planos {
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.descricao-planos h2 {
+    font-size: 30px;
+}
+
+.list-planos {
+    display: flex;
+    align-items: flex-end;
+}
+
+.item-planos {
+    flex: 1;
+    border: 5px solid blue;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+.item-planos h3 {
+    display: flex;
+    font-size: 24px;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-planos h3::after {
+    content:"";
+    background-color: blue;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.item-planos .btn {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item-planos ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.item-planos ul li {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.item-planos ul li::before {
+    content:"";
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: blue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.footer {
+    justify-content: space-around;
+    color: white;
+    flex-direction: row; 
+}
