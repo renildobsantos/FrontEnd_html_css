@@ -1,4 +1,4 @@
 ## FrontEnd_html_css
 ### Projeto de desenvolvimento de Site utilizando HTML, CSS e Flexbox
-<img align="center" src="https://user-images.githubusercontent.com/79602519/174920348-4db5c4f5-85db-4993-87cb-fd5112ca2e1e.PNG"/>
+<img align="center" src="https://user-images.githubusercontent.com/79602519/200396333-84905640-58d0-4100-95d8-2848196b40ad.png"/>
 
