@@ -1,3 +1,4 @@
 ## FrontEnd_html_css
 ### Projeto de desenvolvimento de Site utilizando HTML, CSS e Flexbox
-(http://127.0.0.1:5500/index.html)
+<img align="center" src="https://user-images.githubusercontent.com/79602519/174920348-4db5c4f5-85db-4993-87cb-fd5112ca2e1e.PNG"/>
+
